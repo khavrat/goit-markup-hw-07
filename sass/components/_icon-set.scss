@@ -1,0 +1,20 @@
+.icon__list {
+    @include centeredFlex();
+    gap: 10px;
+}
+
+.icon__network {
+    @include centeredFlex();
+    justify-content: center; 
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;  
+    fill: $icon-color;
+    @include transitionItem($property: background-color);
+    @include transitionItem($property: fill);
+
+    &:hover, &:focus {
+        background-color: $accent-color;
+        fill: $primary-bg-color;
+    }
+}

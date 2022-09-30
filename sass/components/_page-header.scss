@@ -1,0 +1,75 @@
+.header {
+    border-bottom: 1px solid $border-line;
+}
+
+.container {
+    @extend %containerStyle;
+
+    &--nav {
+        @include centeredFlex();
+    }
+}
+
+@import "../components/logo";
+
+.site-nav {
+    @include centeredFlex();
+
+    &__list {
+        @include centeredFlex();
+        gap: 50px;
+        margin-left: 93px;
+    }
+
+    &__link {
+        @extend %headerLink;
+        color: $prymary-text-color;
+        @include transitionItem();
+        @include transitionItem($property:fill);
+    }
+
+    &__link:hover, &__link:focus {
+        color: $accent-color;
+    }
+
+    &__link.current::after {
+        @extend %pseudoElement;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background: $accent-color;
+        border-radius: 2px;
+        transform: translateY(1px);
+    }
+} 
+
+.current {
+    position: relative;
+    color: $accent-color;
+}
+
+.contacts {
+    @include centeredFlex();
+    margin-left: auto;
+    gap: 50px;
+
+    &__icon {
+        color: currentColor;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+}
+
+.contacts__link {
+    @extend %headerLink;
+    fill: $secondary-text-color;
+    color: $secondary-text-color;
+    @include transitionItem();
+    @include transitionItem($property:fill);
+
+    &:hover, &:focus {
+        fill: $accent-color;
+        color: $accent-color;
+    }
+}

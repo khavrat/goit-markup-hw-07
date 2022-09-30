@@ -1,0 +1,44 @@
+%pseudoElement {
+    content: " ";
+    display: inline-block;
+    position: absolute;
+}
+
+%containerStyle {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;  
+}
+
+%headerLink {
+    padding: 32px 0; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+%sectionPlace {
+    padding: 94px 0;
+}
+
+%visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect (0 0 0 0);
+    overflow: hidden;
+}
+
+%sectionTitle {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $prymary-text-color;
+}
