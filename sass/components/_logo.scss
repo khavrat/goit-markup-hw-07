@@ -10,6 +10,10 @@
         padding-top: 24px;
         padding-bottom: 25px;
     }
+
+    &--footer {
+        color: $primary-bg-color;
+    }
     
     &__part {
         color: $accent-color;
