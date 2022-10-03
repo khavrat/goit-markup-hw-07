@@ -30,13 +30,4 @@
     color: $primary-bg-color;
 }
 
-.button {
-    @extend %buttonStyles;
-    padding: 10px 32px;
-    border-radius: 4px;
-    color: $primary-bg-color;
-   
-    &:hover, &:focus {
-        background-color: $button-hover-color;
-    }
-}
+@import "./button";

@@ -542,14 +542,14 @@ img {
     transition: background-color 250ms var(--cubic-bezier);
 } */
 
-.button--pic::after {
+/* .button--pic::after {
     content: " ";
     display: inline-block;
     width: 24px;
     height: 24px;
     margin-left: 10px;
     background-image: url(../images/send.svg);
-} 
+}  */
 
 /* .button--pic:hover,
 .button--pic:focus {
@@ -557,15 +557,15 @@ img {
 } */
 
 /* Портфоліо фільтр */
-.project__filter {
+/* .project__filter {
     display: flex;
     list-style: none;
     justify-content: center;
     margin-bottom: 50px;
     gap: 8px;
-}
+} */
 
-.button--select {
+/* .button--select {
     padding: 6px 22px;
     font-weight: 500;
     line-height: 1.62;
@@ -576,16 +576,16 @@ img {
     transition: color 250ms var(--cubic-bezier),
         background-color 250ms var(--cubic-bezier),
         box-shadow 250ms var(--cubic-bezier);
-}
+} */
 
-.button--select:hover,
+/* .button--select:hover,
 .button--select:focus {
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
         0px 1px 2px rgba(0, 0, 0, 0.08), 
         0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 /* .icon__network--footer {
     display: flex;
@@ -605,19 +605,19 @@ img {
 } */
 
 /* Портфоліо картки проектів */
-.project__portfolio {
+/* .project__portfolio {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     gap: var(--project-grid-gap);
-}
+} */
 
-.project__thumb {
+/* .project__thumb {
     position: relative;
     overflow: hidden;
-}
+} */
 
-.project__thumb::before {
+/* .project__thumb::before {
     display: block;
     content: " ";
     position: absolute;
@@ -630,14 +630,14 @@ img {
     transition: opacity 250ms var(--cubic-bezier),
         transform 250ms var(--cubic-bezier);
     transform: translateY(100%); 
-}
+} */
 
-.project__link:hover .project__thumb::before,
+/* .project__link:hover .project__thumb::before,
 .project__link:focus .project__thumb::before {
     opacity: 1;
     transform: translateY(0);
-}
-
+} */
+/* 
 .project__discription {
     position: absolute;
     font-size: 18px;
@@ -650,15 +650,15 @@ img {
     transition: opacity 250ms var(--cubic-bezier),
         transform 250ms var(--cubic-bezier)
    
-}
+} */
 
-.project__link:hover .project__discription,
+/* .project__link:hover .project__discription,
 .project__link:focus .project__discription {
     opacity: 1;
     transform: translateY(0);
-}
+} */
 
-.project__link {
+/* .project__link {
     display: block;
     text-decoration: none;
     background-color: var(--primary-bg-color);
@@ -670,16 +670,16 @@ img {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
         0px 4px 4px rgba(0, 0, 0, 0.06), 
         1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
-.project__wrapper {
+/* .project__wrapper {
     padding: 20px 24px;
     border-right: 1px solid var(--border-line-portfolio);
     border-bottom: 1px solid var(--border-line-portfolio);
     border-left: 1px solid var(--border-line-portfolio);
-} 
+}  */
 
-.project__name {
+/* .project__name {
     margin-bottom: 4px;
     font-size: 18px;
     line-height: 2;
@@ -692,7 +692,7 @@ img {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
-}
+} */
 
 /* Модальне вікно */
 .backdrop {
@@ -763,7 +763,7 @@ img {
     overflow: hidden;
 }
 
-.form__modal {
+/* .form__modal {
     width: 448px;
     text-align: center;
 }
@@ -917,18 +917,18 @@ img {
 .button--send {
     padding: 10px 52px;
     font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
+    /* font-weight: 700; */
+    /* font-size: 16px;
+    line-height: 1.88; */
     display: inline-block;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.06em;
+    /* letter-spacing: 0.06em; */
     color: var(--primary-bg-color);
-    background-color: var(--accent-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    /* background-color: var(--accent-color); */
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
     border-radius: 4px;
-    cursor: pointer;
+    /* cursor: pointer; */
     transition: background-color 250ms var(--cubic-bezier);
 }
 
@@ -960,4 +960,4 @@ img {
 
 
 
-
+ */

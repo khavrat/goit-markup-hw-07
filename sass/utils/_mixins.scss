@@ -3,6 +3,6 @@
     align-items: $items;
 }
 
-@mixin transitionItem($property:color, $duration:250ms, $timing-function: cubic-bezier(0.4, 0, 0.2, 1)) {
+@mixin transitionItem($property:color, $duration:2250ms, $timing-function: cubic-bezier(0.4, 0, 0.2, 1)) {
     transition: $property $duration $timing-function;
 }
