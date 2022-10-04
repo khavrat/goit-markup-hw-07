@@ -23,8 +23,7 @@
         background-color: rgba(33, 150, 243, 0.9);
         opacity: 0;
         transform: translateY(100%); 
-        @include transitionItem($property: opacity);
-        @include transitionItem($property: transform);
+        @include transitionItem(opacity, transform);
     }
 
     .project__link:hover &::before,
@@ -43,8 +42,7 @@
     padding: 63px 24px;
     opacity: 0;
     transform: translateY(100%);  
-    @include transitionItem($property: opacity);
-    @include transitionItem($property: transform); 
+    @include transitionItem(opacity, transform); 
     
     .project__link:hover &,
     .project__link:focus & {
@@ -55,7 +53,7 @@
 
 .project__link {
     background-color: $primary-bg-color;
-    @include transitionItem($property: box-shadow);
+    @include transitionItem(box-shadow);
 
     &:hover, &:focus {
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 

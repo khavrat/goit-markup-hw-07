@@ -150,12 +150,13 @@ button {
   gap: 50px;
   margin-left: 93px;
 }
+
 .site-nav__link {
   color: #212121;
-  -webkit-transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: color, fill;
+  transition-property: color, fill;
 }
 .site-nav__link:hover, .site-nav__link:focus {
   color: #2196F3;
@@ -195,10 +196,10 @@ button {
 .contacts__link {
   fill: #757575;
   color: #757575;
-  -webkit-transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: color, fill;
+  transition-property: color, fill;
 }
 .contacts__link:hover, .contacts__link:focus {
   fill: #2196F3;
@@ -237,6 +238,10 @@ button {
   padding: 10px 32px;
   border-radius: 4px;
   color: #FFFFFF;
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
 }
 .button:hover, .button:focus {
   background-color: #188CE8;
@@ -255,8 +260,10 @@ button {
   position: absolute;
   bottom: 0;
   right: 0;
-  -webkit-transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
 }
 .button--pic::after {
   content: " ";
@@ -294,14 +301,12 @@ button {
   background: #F5F4FA;
   -webkit-box-shadow: none;
           box-shadow: none;
-  -webkit-transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: color, background-color, -webkit-box-shadow;
+  transition-property: color, background-color, -webkit-box-shadow;
+  transition-property: color, background-color, box-shadow;
+  transition-property: color, background-color, box-shadow, -webkit-box-shadow;
 }
 .button--select:hover, .button--select:focus {
   color: #FFFFFF;
@@ -318,8 +323,10 @@ button {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  -webkit-transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
 }
 .button--send:hover, .button--send:focus {
   background-color: #188CE8;
@@ -487,10 +494,10 @@ button {
   height: 44px;
   border-radius: 50%;
   fill: #AFB1B8;
-  -webkit-transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: background-color, fill;
+  transition-property: background-color, fill;
 }
 .icon__network:hover, .icon__network:focus {
   background-color: #2196F3;
@@ -511,8 +518,10 @@ button {
   border-radius: 50%;
   fill: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.1);
-  -webkit-transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
 }
 .icon__network--footer:hover, .icon__network--footer:focus {
   background-color: #2196F3;
@@ -552,10 +561,10 @@ button {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   fill: #AFB1B8;
-  -webkit-transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: border 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: border, fill;
+  transition-property: border, fill;
 }
 .client__icon:hover, .client__icon:focus {
   fill: #2196F3;
@@ -607,13 +616,13 @@ button {
 }
 .address__map {
   color: #FFFFFF;
-  -webkit-transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 .address__contact {
   color: rgba(255, 255, 255, 0.6);
-  -webkit-transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 .address__map:hover, .address__map:focus, .address__contact:hover, .address__contact:focus {
   color: #2196F3;
@@ -643,10 +652,10 @@ button {
   height: 44px;
   border-radius: 50%;
   fill: #AFB1B8;
-  -webkit-transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: background-color, fill;
+  transition-property: background-color, fill;
 }
 .icon__network:hover, .icon__network:focus {
   background-color: #2196F3;
@@ -667,8 +676,10 @@ button {
   border-radius: 50%;
   fill: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.1);
-  -webkit-transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
 }
 .icon__network--footer:hover, .icon__network--footer:focus {
   background-color: #2196F3;
@@ -693,13 +704,19 @@ button {
   width: 358px;
   height: 50px;
   padding: 15px 0 15px 16px;
+  color: #FFFFFF;
+  outline: none;
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
-  -webkit-transition: border-color 2250ms linear;
-  transition: border-color 2250ms linear;
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
 }
 .form__input:hover, .form__input:focus {
   border-color: #2196F3;
@@ -767,6 +784,10 @@ button {
   padding: 10px 32px;
   border-radius: 4px;
   color: #FFFFFF;
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
 }
 .button:hover, .button:focus {
   background-color: #188CE8;
@@ -785,8 +806,10 @@ button {
   position: absolute;
   bottom: 0;
   right: 0;
-  -webkit-transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
 }
 .button--pic::after {
   content: " ";
@@ -824,14 +847,12 @@ button {
   background: #F5F4FA;
   -webkit-box-shadow: none;
           box-shadow: none;
-  -webkit-transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: color, background-color, -webkit-box-shadow;
+  transition-property: color, background-color, -webkit-box-shadow;
+  transition-property: color, background-color, box-shadow;
+  transition-property: color, background-color, box-shadow, -webkit-box-shadow;
 }
 .button--select:hover, .button--select:focus {
   color: #FFFFFF;
@@ -848,8 +869,10 @@ button {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  -webkit-transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
 }
 .button--send:hover, .button--send:focus {
   background-color: #188CE8;
@@ -892,8 +915,10 @@ button {
 .form__entry {
   padding-left: 42px;
   margin-top: 4px;
-  -webkit-transition: border 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: border;
+  transition-property: border;
 }
 .form__entry:focus {
   outline: none;
@@ -904,8 +929,10 @@ button {
   position: absolute;
   top: 50%;
   left: 12px;
-  -webkit-transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: fill;
+  transition-property: fill;
 }
 .form__entry:focus + .form__icon {
   fill: #2196F3;
@@ -916,8 +943,10 @@ button {
   margin-top: 4px;
   color: currentColor;
   resize: none;
-  -webkit-transition: border 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: border;
+  transition-property: border;
 }
 .form__textarea:focus {
   outline: none;
@@ -954,6 +983,14 @@ button {
   color: rgba(117, 117, 117, 0.5);
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
+}
+
 .project__portfolio {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -979,12 +1016,12 @@ button {
   opacity: 0;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
-  -webkit-transition: opacity 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: -webkit-transform 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 2250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: opacity, transform;
+  transition-property: opacity, transform, -webkit-transform;
 }
 .project__link:hover .project__thumb::before, .project__link:focus .project__thumb::before {
   opacity: 1;
@@ -1002,12 +1039,12 @@ button {
   opacity: 0;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
-  -webkit-transition: opacity 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: -webkit-transform 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 2250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: opacity, transform;
+  transition-property: opacity, transform, -webkit-transform;
 }
 .project__link:hover .project__discription, .project__link:focus .project__discription {
   opacity: 1;
@@ -1017,10 +1054,12 @@ button {
 
 .project__link {
   background-color: #FFFFFF;
-  -webkit-transition: -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: -webkit-box-shadow;
+  transition-property: -webkit-box-shadow;
+  transition-property: box-shadow;
+  transition-property: box-shadow, -webkit-box-shadow;
 }
 .project__link:hover, .project__link:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -1057,8 +1096,10 @@ button {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  -webkit-transition: opacity 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
 }
 
 .backdrop.is-hidden {
@@ -1081,14 +1122,12 @@ button {
   opacity: 1;
   -webkit-transform: translate(-50%, -50%) scale(1.1);
           transform: translate(-50%, -50%) scale(1.1);
-  -webkit-transition: -webkit-transform 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 2250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: opacity 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: visibility 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: visibility 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: opacity, visibility, -webkit-transform;
+  transition-property: opacity, visibility, -webkit-transform;
+  transition-property: transform, opacity, visibility;
+  transition-property: transform, opacity, visibility, -webkit-transform;
 }
 .backdrop.is-hidden .modal {
   opacity: 0;
@@ -1116,8 +1155,10 @@ button {
   fill: #000000;
   background-color: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  -webkit-transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: fill;
+  transition-property: fill;
 }
 .modal__close:hover, .modal__close:focus {
   fill: #2196F3;
@@ -1146,13 +1187,19 @@ button {
   width: 358px;
   height: 50px;
   padding: 15px 0 15px 16px;
+  color: #FFFFFF;
+  outline: none;
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
-  -webkit-transition: border-color 2250ms linear;
-  transition: border-color 2250ms linear;
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
 }
 .form__input:hover, .form__input:focus {
   border-color: #2196F3;
@@ -1220,6 +1267,10 @@ button {
   padding: 10px 32px;
   border-radius: 4px;
   color: #FFFFFF;
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
 }
 .button:hover, .button:focus {
   background-color: #188CE8;
@@ -1238,8 +1289,10 @@ button {
   position: absolute;
   bottom: 0;
   right: 0;
-  -webkit-transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
 }
 .button--pic::after {
   content: " ";
@@ -1277,14 +1330,12 @@ button {
   background: #F5F4FA;
   -webkit-box-shadow: none;
           box-shadow: none;
-  -webkit-transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: color, background-color, -webkit-box-shadow;
+  transition-property: color, background-color, -webkit-box-shadow;
+  transition-property: color, background-color, box-shadow;
+  transition-property: color, background-color, box-shadow, -webkit-box-shadow;
 }
 .button--select:hover, .button--select:focus {
   color: #FFFFFF;
@@ -1301,8 +1352,10 @@ button {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  -webkit-transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
 }
 .button--send:hover, .button--send:focus {
   background-color: #188CE8;
@@ -1345,8 +1398,10 @@ button {
 .form__entry {
   padding-left: 42px;
   margin-top: 4px;
-  -webkit-transition: border 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: border;
+  transition-property: border;
 }
 .form__entry:focus {
   outline: none;
@@ -1357,8 +1412,10 @@ button {
   position: absolute;
   top: 50%;
   left: 12px;
-  -webkit-transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: fill;
+  transition-property: fill;
 }
 .form__entry:focus + .form__icon {
   fill: #2196F3;
@@ -1369,8 +1426,10 @@ button {
   margin-top: 4px;
   color: currentColor;
   resize: none;
-  -webkit-transition: border 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: border;
+  transition-property: border;
 }
 .form__textarea:focus {
   outline: none;
@@ -1405,6 +1464,14 @@ button {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
 }
 
 .checkbox {
@@ -1486,6 +1553,10 @@ button {
   padding: 10px 32px;
   border-radius: 4px;
   color: #FFFFFF;
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
 }
 .button:hover, .button:focus {
   background-color: #188CE8;
@@ -1504,8 +1575,10 @@ button {
   position: absolute;
   bottom: 0;
   right: 0;
-  -webkit-transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
 }
 .button--pic::after {
   content: " ";
@@ -1543,14 +1616,12 @@ button {
   background: #F5F4FA;
   -webkit-box-shadow: none;
           box-shadow: none;
-  -webkit-transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition: -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: color, background-color, -webkit-box-shadow;
+  transition-property: color, background-color, -webkit-box-shadow;
+  transition-property: color, background-color, box-shadow;
+  transition-property: color, background-color, box-shadow, -webkit-box-shadow;
 }
 .button--select:hover, .button--select:focus {
   color: #FFFFFF;
@@ -1567,8 +1638,10 @@ button {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  -webkit-transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
 }
 .button--send:hover, .button--send:focus {
   background-color: #188CE8;

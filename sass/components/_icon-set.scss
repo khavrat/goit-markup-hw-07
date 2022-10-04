@@ -10,8 +10,8 @@
     height: 44px;
     border-radius: 50%;  
     fill: $icon-color;
-    @include transitionItem($property: background-color);
-    @include transitionItem($property: fill);
+    @include transitionItem(background-color, fill);
+
 
     &:hover, &:focus {
         background-color: $accent-color;
@@ -26,7 +26,7 @@
         border-radius: 50%;  
         fill: $primary-bg-color;
         background-color: rgba(255, 255, 255, 0.1);
-        @include transitionItem($property: background-color);
+        @include transitionItem(background-color);
     }
 
     &--footer:hover, &--footer:focus {

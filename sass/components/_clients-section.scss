@@ -20,8 +20,8 @@
     border: 1px solid $icon-color;
     border-radius: 4px;
     fill: $icon-color;
-    @include transitionItem($property: fill);
-    @include transitionItem($property: border);
+    @include transitionItem(border, fill);
+    
 
         &:hover, &:focus {
             fill: $accent-color;

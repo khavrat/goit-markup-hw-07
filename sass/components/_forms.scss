@@ -11,8 +11,8 @@
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: $primary-bg-color; 
+        text-transform: uppercase; 
+        color: $primary-bg-color;
     }
 }
 
@@ -20,11 +20,14 @@
     width: 358px;
     height: 50px;
     padding: 15px 0 15px 16px;
+    color: $primary-bg-color;
+    outline: none;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background-color: transparent;
-    @include transitionItem($property: border-color, $timing-function:linear);
+    @include transitionItem(border-color);
+    transition-timing-function: linear;
 
     &:hover, &:focus {
         border-color: $accent-color;
@@ -93,7 +96,7 @@
     @extend %formStyles;
     padding-left: 42px;
     margin-top: 4px;
-    @include transitionItem($property: border);
+    @include transitionItem(border);
 
     &:focus {
         outline: none;
@@ -105,7 +108,7 @@
     position: absolute;
     top: 50%;
     left: 12px;
-    @include transitionItem($property: fill);
+    @include transitionItem(fill);
 
     .form__entry:focus + & {
         fill: $accent-color;
@@ -118,7 +121,7 @@
     margin-top: 4px;
     color: currentColor;
     resize: none;
-    @include transitionItem($property: border);
+    @include transitionItem(border);
 
     &:focus {
         outline: none;
@@ -131,4 +134,11 @@
         letter-spacing: 0.01em;
         color: rgba(117, 117, 117, 0.5);
     }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
 }

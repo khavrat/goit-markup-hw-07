@@ -20,19 +20,19 @@
         gap: 50px;
         margin-left: 93px;
     }
+} 
 
-    &__link {
-        @extend %headerLink;
-        color: $prymary-text-color;
-        @include transitionItem();
-        @include transitionItem($property:fill);
-    }
+.site-nav__link {
+    @extend %headerLink;
+    color: $prymary-text-color;
+    @include transitionItem(color, fill);
+    
 
-    &__link:hover, &__link:focus {
+    &:hover, &:focus {
         color: $accent-color;
     }
 
-    &__link.current::after {
+    &.current::after {
         @extend %pseudoElement;
         bottom: 0;
         left: 0;
@@ -42,7 +42,8 @@
         border-radius: 2px;
         transform: translateY(1px);
     }
-} 
+}
+
 
 .current {
     position: relative;
@@ -65,8 +66,8 @@
     @extend %headerLink;
     fill: $secondary-text-color;
     color: $secondary-text-color;
-    @include transitionItem();
-    @include transitionItem($property:fill);
+    @include transitionItem(color, fill);
+
 
     &:hover, &:focus {
         fill: $accent-color;

@@ -5,6 +5,7 @@
     padding: 10px 32px;
     border-radius: 4px;
     color: $primary-bg-color;
+    @include transitionItem(background-color);
    
     &:hover, &:focus {
         background-color: $button-hover-color;
@@ -22,7 +23,7 @@
     position: absolute;
     bottom: 0;
     right: 0; 
-    @include transitionItem($property: background-color);
+    @include transitionItem(background-color);
     
     &::after {
         content: " ";
@@ -57,9 +58,8 @@
     color: $prymary-text-color;
     background: $secondary-bg-color;
     box-shadow: none;
-    @include transitionItem();
-    @include transitionItem($property: background-color);
-    @include transitionItem($property: box-shadow);
+    @include transitionItem(color, background-color, box-shadow);
+
 
     &:hover, &:focus {
         color: $primary-bg-color;
@@ -79,7 +79,7 @@
     font-family: "Roboto";
     @include centeredFlex($type: inline-block);
     text-align: center;
-    @include transitionItem($property: background-color);
+    @include transitionItem(background-color);
 
     &:hover, &:focus {
         background-color: $button-hover-color;
