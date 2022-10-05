@@ -1,6 +1,6 @@
 .client__title {
     margin-bottom: 50px;
-    font-size: 36px;
+    font-size: $font-size-xxl;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
@@ -14,7 +14,6 @@
 
 .client__icon {
     @include centeredFlex();
-    justify-content: center;
     width: 170px;
     height: 92px;
     border: 1px solid $icon-color;

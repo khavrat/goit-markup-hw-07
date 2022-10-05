@@ -1,7 +1,7 @@
 body {
-  font-family: "Roboto", "Montserrat", "Open Sans", sans-serif;
-  color: var(--prymary-text-color);
-  background-color: var(--primary-bg-color);
+  font-family: "Roboto", "Montserrat", "Open Sans", sans-sarif;
+  color: #212121;
+  background-color: #FFFFFF;
 }
 
 h1,
@@ -111,10 +111,13 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sens-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -139,6 +142,9 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .site-nav__list {
   display: -webkit-box;
@@ -147,14 +153,17 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 50px;
   margin-left: 93px;
 }
 
 .site-nav__link {
   color: #212121;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: color, fill;
   transition-property: color, fill;
 }
@@ -184,6 +193,9 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-left: auto;
   gap: 50px;
 }
@@ -196,8 +208,8 @@ button {
 .contacts__link {
   fill: #757575;
   color: #757575;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: color, fill;
   transition-property: color, fill;
 }
@@ -238,8 +250,8 @@ button {
   padding: 10px 32px;
   border-radius: 4px;
   color: #FFFFFF;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: background-color;
   transition-property: background-color;
 }
@@ -254,14 +266,17 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   padding: 10px 28px;
   border-radius: 4px;
   position: absolute;
   bottom: 0;
   right: 0;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: background-color;
   transition-property: background-color;
 }
@@ -301,8 +316,8 @@ button {
   background: #F5F4FA;
   -webkit-box-shadow: none;
           box-shadow: none;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: color, background-color, -webkit-box-shadow;
   transition-property: color, background-color, -webkit-box-shadow;
   transition-property: color, background-color, box-shadow;
@@ -317,14 +332,17 @@ button {
 
 .button--send {
   padding: 10px 52px;
-  font-family: "Roboto";
+  font-family: "Roboto", "Montserrat", "Open Sans", sans-sarif;
   display: inline-block;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: background-color;
   transition-property: background-color;
 }
@@ -343,6 +361,9 @@ button {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 30px;
 }
 
@@ -398,6 +419,9 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 30px;
 }
 
@@ -436,6 +460,9 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 30px;
@@ -477,6 +504,9 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 10px;
 }
 
@@ -494,8 +524,8 @@ button {
   height: 44px;
   border-radius: 50%;
   fill: #AFB1B8;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: background-color, fill;
   transition-property: background-color, fill;
 }
@@ -518,8 +548,8 @@ button {
   border-radius: 50%;
   fill: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.1);
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: background-color;
   transition-property: background-color;
 }
@@ -543,6 +573,9 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 30px;
 }
 
@@ -561,8 +594,8 @@ button {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   fill: #AFB1B8;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: border, fill;
   transition-property: border, fill;
 }
@@ -582,6 +615,9 @@ button {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .footer__location {
   width: 231px;
@@ -616,13 +652,13 @@ button {
 }
 .address__map {
   color: #FFFFFF;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 .address__contact {
   color: rgba(255, 255, 255, 0.6);
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 .address__map:hover, .address__map:focus, .address__contact:hover, .address__contact:focus {
   color: #2196F3;
@@ -635,6 +671,9 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 10px;
 }
 
@@ -652,8 +691,8 @@ button {
   height: 44px;
   border-radius: 50%;
   fill: #AFB1B8;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: background-color, fill;
   transition-property: background-color, fill;
 }
@@ -676,8 +715,8 @@ button {
   border-radius: 50%;
   fill: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.1);
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: background-color;
   transition-property: background-color;
 }
@@ -711,8 +750,8 @@ button {
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: border-color;
   transition-property: border-color;
   -webkit-transition-timing-function: linear;
@@ -726,6 +765,8 @@ button {
   display: flex;
   -webkit-box-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -734,6 +775,7 @@ button {
 .form__input::-moz-placeholder {
   display: flex;
   align-items: center;
+  justify-content: center;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -744,6 +786,8 @@ button {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -754,6 +798,8 @@ button {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -766,6 +812,9 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -784,8 +833,8 @@ button {
   padding: 10px 32px;
   border-radius: 4px;
   color: #FFFFFF;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: background-color;
   transition-property: background-color;
 }
@@ -800,14 +849,17 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   padding: 10px 28px;
   border-radius: 4px;
   position: absolute;
   bottom: 0;
   right: 0;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: background-color;
   transition-property: background-color;
 }
@@ -847,8 +899,8 @@ button {
   background: #F5F4FA;
   -webkit-box-shadow: none;
           box-shadow: none;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: color, background-color, -webkit-box-shadow;
   transition-property: color, background-color, -webkit-box-shadow;
   transition-property: color, background-color, box-shadow;
@@ -863,14 +915,17 @@ button {
 
 .button--send {
   padding: 10px 52px;
-  font-family: "Roboto";
+  font-family: "Roboto", "Montserrat", "Open Sans", sans-sarif;
   display: inline-block;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: background-color;
   transition-property: background-color;
 }
@@ -915,8 +970,8 @@ button {
 .form__entry {
   padding-left: 42px;
   margin-top: 4px;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: border;
   transition-property: border;
 }
@@ -929,8 +984,8 @@ button {
   position: absolute;
   top: 50%;
   left: 12px;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: fill;
   transition-property: fill;
 }
@@ -943,8 +998,8 @@ button {
   margin-top: 4px;
   color: currentColor;
   resize: none;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: border;
   transition-property: border;
 }
@@ -983,10 +1038,11 @@ button {
   color: rgba(117, 117, 117, 0.5);
 }
 
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active {
+input:-webkit-autofill {
+  -webkit-transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
+}
+input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
   -webkit-transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
 }
@@ -998,6 +1054,9 @@ input:-webkit-autofill:active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 30px;
@@ -1016,8 +1075,8 @@ input:-webkit-autofill:active {
   opacity: 0;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
   transition-property: opacity, transform;
@@ -1039,8 +1098,8 @@ input:-webkit-autofill:active {
   opacity: 0;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
   transition-property: opacity, transform;
@@ -1054,8 +1113,8 @@ input:-webkit-autofill:active {
 
 .project__link {
   background-color: #FFFFFF;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: -webkit-box-shadow;
   transition-property: -webkit-box-shadow;
   transition-property: box-shadow;
@@ -1096,8 +1155,8 @@ input:-webkit-autofill:active {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: opacity;
   transition-property: opacity;
 }
@@ -1122,8 +1181,8 @@ input:-webkit-autofill:active {
   opacity: 1;
   -webkit-transform: translate(-50%, -50%) scale(1.1);
           transform: translate(-50%, -50%) scale(1.1);
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: opacity, visibility, -webkit-transform;
   transition-property: opacity, visibility, -webkit-transform;
   transition-property: transform, opacity, visibility;
@@ -1155,8 +1214,8 @@ input:-webkit-autofill:active {
   fill: #000000;
   background-color: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: fill;
   transition-property: fill;
 }
@@ -1194,8 +1253,8 @@ input:-webkit-autofill:active {
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: border-color;
   transition-property: border-color;
   -webkit-transition-timing-function: linear;
@@ -1209,6 +1268,8 @@ input:-webkit-autofill:active {
   display: flex;
   -webkit-box-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -1217,6 +1278,7 @@ input:-webkit-autofill:active {
 .form__input::-moz-placeholder {
   display: flex;
   align-items: center;
+  justify-content: center;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -1227,6 +1289,8 @@ input:-webkit-autofill:active {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -1237,6 +1301,8 @@ input:-webkit-autofill:active {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -1249,6 +1315,9 @@ input:-webkit-autofill:active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -1267,8 +1336,8 @@ input:-webkit-autofill:active {
   padding: 10px 32px;
   border-radius: 4px;
   color: #FFFFFF;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: background-color;
   transition-property: background-color;
 }
@@ -1283,14 +1352,17 @@ input:-webkit-autofill:active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   padding: 10px 28px;
   border-radius: 4px;
   position: absolute;
   bottom: 0;
   right: 0;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: background-color;
   transition-property: background-color;
 }
@@ -1330,8 +1402,8 @@ input:-webkit-autofill:active {
   background: #F5F4FA;
   -webkit-box-shadow: none;
           box-shadow: none;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: color, background-color, -webkit-box-shadow;
   transition-property: color, background-color, -webkit-box-shadow;
   transition-property: color, background-color, box-shadow;
@@ -1346,14 +1418,17 @@ input:-webkit-autofill:active {
 
 .button--send {
   padding: 10px 52px;
-  font-family: "Roboto";
+  font-family: "Roboto", "Montserrat", "Open Sans", sans-sarif;
   display: inline-block;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: background-color;
   transition-property: background-color;
 }
@@ -1398,8 +1473,8 @@ input:-webkit-autofill:active {
 .form__entry {
   padding-left: 42px;
   margin-top: 4px;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: border;
   transition-property: border;
 }
@@ -1412,8 +1487,8 @@ input:-webkit-autofill:active {
   position: absolute;
   top: 50%;
   left: 12px;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: fill;
   transition-property: fill;
 }
@@ -1426,8 +1501,8 @@ input:-webkit-autofill:active {
   margin-top: 4px;
   color: currentColor;
   resize: none;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: border;
   transition-property: border;
 }
@@ -1466,10 +1541,11 @@ input:-webkit-autofill:active {
   color: rgba(117, 117, 117, 0.5);
 }
 
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active {
+input:-webkit-autofill {
+  -webkit-transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
+}
+input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
   -webkit-transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
 }
@@ -1553,8 +1629,8 @@ input:-webkit-autofill:active {
   padding: 10px 32px;
   border-radius: 4px;
   color: #FFFFFF;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: background-color;
   transition-property: background-color;
 }
@@ -1569,14 +1645,17 @@ input:-webkit-autofill:active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   padding: 10px 28px;
   border-radius: 4px;
   position: absolute;
   bottom: 0;
   right: 0;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: background-color;
   transition-property: background-color;
 }
@@ -1616,8 +1695,8 @@ input:-webkit-autofill:active {
   background: #F5F4FA;
   -webkit-box-shadow: none;
           box-shadow: none;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: color, background-color, -webkit-box-shadow;
   transition-property: color, background-color, -webkit-box-shadow;
   transition-property: color, background-color, box-shadow;
@@ -1632,14 +1711,17 @@ input:-webkit-autofill:active {
 
 .button--send {
   padding: 10px 52px;
-  font-family: "Roboto";
+  font-family: "Roboto", "Montserrat", "Open Sans", sans-sarif;
   display: inline-block;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
-  -webkit-transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  transition: all 2250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   -webkit-transition-property: background-color;
   transition-property: background-color;
 }

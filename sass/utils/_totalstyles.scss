@@ -1,7 +1,7 @@
 body {
-    font-family: "Roboto", "Montserrat", "Open Sans", sans-serif;
-    color: var(--prymary-text-color);
-    background-color: var(--primary-bg-color);
+    font-family: $font-family-primary;
+    color: $prymary-text-color;
+    background-color: $primary-bg-color;
 }
 
 h1,

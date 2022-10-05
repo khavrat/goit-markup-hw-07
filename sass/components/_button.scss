@@ -1,5 +1,4 @@
-// Кнопка в секції Герой
-
+// Кнопка в секції Hero
 .button {
     @extend %buttonStyles;
     padding: 10px 32px;
@@ -13,7 +12,6 @@
 }
 
 // Кнопка у футері
-
 .button--pic {
     @extend %buttonStyles;
     @include centeredFlex();
@@ -41,18 +39,16 @@
 }
 
 // Фільтр на сторінці portfolio.html
-
 .project__filter {
     @include centeredFlex();
-    justify-content: center;
     margin-bottom: 50px;
     gap: 8px;
 }
 
 .button--select {
     padding: 6px 22px;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-s;
     line-height: 1.62;
     letter-spacing: 0.03em;
     color: $prymary-text-color;
@@ -72,11 +68,10 @@
 
 
 // Кнопка в модальному вікні
-
 .button--send {
     @extend %buttonStyles;
     padding: 10px 52px;
-    font-family: "Roboto";
+    font-family: $font-family-primary;
     @include centeredFlex($type: inline-block);
     text-align: center;
     @include transitionItem(background-color);

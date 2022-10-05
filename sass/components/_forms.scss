@@ -1,5 +1,4 @@
 // Форма в футері
-
 .form {
     width: 570px;
     position: relative;
@@ -7,8 +6,8 @@
     &__label {
         display: block;
         margin-bottom: 20px;
-        font-weight: 700;
-        font-size: 14px;
+        font-weight: $font-weight-bold;
+        font-size: $font-size-xs;
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase; 
@@ -35,7 +34,7 @@
 
     &::placeholder {
         @include centeredFlex();
-        font-size: 16px;
+        font-size: $font-size-s;
         line-height: 1.25;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
@@ -45,7 +44,7 @@
         color: $primary-bg-color;
         outline: $accent-color;
         padding-left: 16px;
-        font-size: 16px;
+        font-size: $font-size-s;
         line-height: 1.25;
         letter-spacing: 0.03em;
     }
@@ -55,7 +54,6 @@
 
 
 // Форма в модальному вікні
-
 .form__modal {
     width: 448px;
     text-align: center;
@@ -68,7 +66,7 @@
 .form__title {
     display: inline-block;
     margin-bottom: 12px;
-    font-size: 20px;
+    font-size: $font-size-l;
     line-height: 1.15;
     letter-spacing: 0.03em;
     color: $prymary-text-color;
@@ -78,7 +76,7 @@
     position: relative;
     display: block;
     text-align: left;
-    font-size: 12px;
+    font-size: $font-size-xxs;
     line-height: 1.17;
     letter-spacing: 0.01em;
     color: $secondary-text-color;
@@ -129,16 +127,18 @@
     }
 
     &::placeholder {
-        font-size: 12px;
+        font-size: $font-size-xxs;
         line-height: 1.17;
         letter-spacing: 0.01em;
         color: rgba(117, 117, 117, 0.5);
     }
 }
 
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active {
-  transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
+// Чистий фон інпуту
+input:-webkit-autofill {
+    transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
+    &:hover, &:focus, &:active {
+        transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
+    }
 }
+

@@ -4,8 +4,7 @@
 }
 
 .icon__network {
-    @include centeredFlex();
-    justify-content: center; 
+    @include centeredFlex(); 
     width: 44px;
     height: 44px;
     border-radius: 50%;  
@@ -20,7 +19,6 @@
 
     &--footer {
         @include centeredFlex();
-        justify-content: center;
         width: 44px;
         height: 44px;
         border-radius: 50%;  
