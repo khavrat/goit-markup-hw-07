@@ -1,9 +1,3 @@
-.project__title {
-    &--visually-hidden {
-    @extend %visually-hidden;
-    }
-}
-
 .project__portfolio {
     @include centeredFlex();
     flex-wrap: wrap;

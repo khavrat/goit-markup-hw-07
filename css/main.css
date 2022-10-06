@@ -60,17 +60,6 @@ button {
   padding: 94px 0;
 }
 
-.checkbox, .project__title--visually-hidden, .feature__title--visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect 0 0 0 0;
-  overflow: hidden;
-}
-
 .team__title, .work__title {
   margin-bottom: 50px;
   font-size: 36px;
@@ -352,6 +341,16 @@ button {
 
 .section--feature {
   padding-bottom: 47px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .feature__list {
